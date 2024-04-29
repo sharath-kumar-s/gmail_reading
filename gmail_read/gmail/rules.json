@@ -1,0 +1,104 @@
+{
+  "1": {
+    "predicate": [
+      "ALL"
+    ],
+    "criteria": [
+      {
+        "name": "from",
+        "value": [
+          "contains",
+          "gitlab@mg.gitlab.com"
+        ]
+      },
+      {
+        "name": "to",
+        "value": [
+          "contains",
+          "vudutha.sharath@gmail.com"
+        ]
+      },
+      {
+        "name": "subject",
+        "value": [
+          "contains",
+          "Python"
+        ]
+      }
+    ],
+    "action": {
+      "addLabelIds": [
+        "SENT"
+      ],
+      "removeLabelIds": []
+    }
+  },
+  "2": {
+    "predicate": [
+      "ANY"
+    ],
+    "criteria": [
+      {
+        "name": "from",
+        "value": [
+          "contains",
+          "gitlab@mg.gitlab.com"
+        ]
+      },
+      {
+        "name": "to",
+        "value": [
+          "contains",
+          "vudutha.sharath@gmail.com"
+        ]
+      },
+      {
+        "name": "subject",
+        "value": [
+          "contains",
+          "approved"
+        ]
+      }
+    ],
+    "action": {
+      "addLabelIds": [
+        "SENT"
+      ],
+      "removeLabelIds": []
+    }
+  },
+  "3": {
+    "predicate": [
+      "ANY"
+    ],
+    "criteria": [
+      {
+        "name": "from",
+        "value": [
+          "contains",
+          "gitlab@mg.gitlab.com"
+        ]
+      },
+      {
+        "name": "to",
+        "value": [
+          "contains",
+          "gitlab@mg.gitlab.com"
+        ]
+      },
+      {
+        "name": "subject",
+        "value": [
+          "contains",
+          "Python"
+        ]
+      }
+    ],
+    "action": {
+      "addLabelIds": [
+        "SENT"
+      ],
+      "removeLabelIds": []
+    }
+  }
+}
